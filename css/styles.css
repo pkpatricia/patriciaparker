@@ -1,0 +1,260 @@
+body {
+  font-size: 16px;
+  background-color: #FCE7E9;
+  color: #222;
+}
+
+h1 {
+  text-transform: capitalize;
+  letter-spacing: .08em;
+  font-size: 36px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Signika', sans-serif;
+}
+
+.letterSpac {
+  letter-spacing: 1.2px;
+}
+
+.bluetxt {
+  color: #1e3264;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:active {
+    text-decoration: none;
+    color: hotpink;
+}
+
+#dot a:active {
+	text-decoration: none;
+	color: #1e3264;
+}
+
+#dot a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#dot a:hover {
+  text-decoration: none;
+  color: #1e3264;
+}
+
+#dot a:link {
+  text-decoration: underline;
+  color:white;
+}
+
+section {
+	background-color: white;
+}
+
+button:active {
+  background-color: #ffcdd2;
+  color: #1e3264;
+}
+
+button:hover {
+  background-color: #ffcdd2;
+  color: #1e3264;
+}
+
+.whitepic:active {
+  background-color: #ffcdd2;
+  color: #1e3264;
+}
+
+.whitepic:hover {
+  background-color: #ffcdd2;
+  color: #1e3264;
+}
+
+.btn {
+  color: #ffcdd2;
+  border: 2px solid #ffcdd2;
+  background-color: #1e3264;
+  margin-top: 2em;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 481px;
+  padding: 11px 14px;
+  -webkit-transition: background-color .15s ease,border-color .15s ease,color .15s ease;
+  -o-transition: background-color .15s ease,border-color .15s ease,color .15s ease;
+  transition: background-color .15s ease,border-color .15s ease,color .15s ease;
+  border-width: 0;
+  letter-spacing: 1.2px;
+  white-space: normal;
+  margin-bottom: 1em;
+  
+}
+
+.whitepic {
+	color: #ffcdd2;
+	background-color: #1e3264;
+	padding: .4em;
+	margin: .3em;
+	border-radius: .3em;
+	width: 25%;
+	position: relative;
+	text-align: center;
+}
+
+.whitepicnolink{
+  color: #ffcdd2;
+  background-color: #1e3264;
+  padding: .4em;
+  margin: .3em;
+  border-radius: .3em;
+  width: 25%;
+  position: relative;
+  text-align: center; 
+}
+
+.fa {
+	font-size: 5em;
+}
+
+.fa.fa-envelope, .fa.fa-file-text, .fa.fa-copyright, .fa.fa-star-half-o {
+	font-size: 1em;
+	padding-right: 0.5em;
+}
+
+.bgimg {
+	background: url("../images/roses-buds.jpg");
+	background-size: cover;
+	width: 100%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.centertext {
+	text-align: center;
+	
+}
+
+.center {
+  padding: 3%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#dot h2, #dot h3, #dot p {
+  margin: 0;
+  padding: 0;
+}
+
+#dot {
+  font-size: 13px;
+  background-color: hotpink;
+  color: white;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 20em;
+  height: 20em;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+.text {
+  margin: 2em auto;
+}
+
+.third {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+
+.double {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+
+#dot p {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  padding: 0 3%;
+}
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer {
+		clear: both;
+}
+
+/****  Media Query  
+			 starts with a screen that is at least 600 pixels wide.
+****/
+
+@media only screen and (min-width: 600px) {
+
+#dot {
+    font-size: 16px;
+  }
+
+.double {
+		width: 50%;
+		float: left;
+            overflow:  hidden;
+}
+	
+.third {
+		width: 33%;
+		float: left;
+            overflow:  hidden;
+}
+	
+  .center {
+    width: 25em;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .search-form {
+    width: 186px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .search-form input {
+    width: 100px;
+  }
+}
