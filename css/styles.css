@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   background-color: #FCE7E9;
-  color: #222;
+  color: #3A3838;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .bluetxt {
-  color: #1e3264;
+  color: #1c2847;
 }
 
 a:link {
@@ -42,7 +42,7 @@ a:active {
 
 #dot a:active {
 	text-decoration: none;
-	color: #1e3264;
+	color: #1c2847;
 }
 
 #dot a:visited {
@@ -52,7 +52,7 @@ a:active {
 
 #dot a:hover {
   text-decoration: none;
-  color: #1e3264;
+  color: #1c2847;
 }
 
 #dot a:link {
@@ -66,37 +66,37 @@ section {
 
 button:active {
   background-color: #ffcdd2;
-  color: #1e3264;
+  color: #1c2847;
 }
 
 button:hover {
   background-color: #ffcdd2;
-  color: #1e3264;
+  color: #1c2847;
+  border-color: #1c2847;
 }
 
 .whitepic:active {
   background-color: #ffcdd2;
-  color: #1e3264;
+  color: #1c2847;
 }
 
 .whitepic:hover {
   background-color: #ffcdd2;
-  color: #1e3264;
+  color: #1c2847;
+  border-color: #1c2847;
 }
 
 .btn {
   color: #ffcdd2;
-  border: 2px solid #ffcdd2;
-  background-color: #1e3264;
+  border: 1px solid #ffcdd2;
+  background-color: #1c2847;
   margin-top: 2em;
-  font-size: 16px;
   line-height: 1.5;
   border-radius: 481px;
   padding: 11px 14px;
   -webkit-transition: background-color .15s ease,border-color .15s ease,color .15s ease;
   -o-transition: background-color .15s ease,border-color .15s ease,color .15s ease;
   transition: background-color .15s ease,border-color .15s ease,color .15s ease;
-  border-width: 0;
   letter-spacing: 1.2px;
   white-space: normal;
   margin-bottom: 1em;
@@ -105,7 +105,7 @@ button:hover {
 
 .whitepic {
 	color: #ffcdd2;
-	background-color: #1e3264;
+	background-color: #1c2847;
 	padding: .4em;
 	margin: .3em;
 	border-radius: .3em;
@@ -116,7 +116,7 @@ button:hover {
 
 .whitepicnolink{
   color: #ffcdd2;
-  background-color: #1e3264;
+  background-color: #1c2847;
   padding: .4em;
   margin: .3em;
   border-radius: .3em;
@@ -135,7 +135,7 @@ button:hover {
 }
 
 .bgimg {
-	background: url("../images/roses-buds.jpg");
+	background: url("../images/blue_eiffel_tower.jpg");
 	background-size: cover;
 	width: 100%;
 }
@@ -218,6 +218,10 @@ footer p {
 
 footer {
 		clear: both;
+}
+
+.menu li {
+  font-size: 1.2em;
 }
 
 /****  Media Query  
