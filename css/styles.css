@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   background-color: #FCE7E9;
-  color: #3A3838;
+  color: #252525;
 }
 
 h1 {
@@ -61,7 +61,7 @@ a:active {
 }
 
 section {
-	background-color: white;
+	background-color: #fafafa;
 }
 
 button:active {
@@ -237,13 +237,13 @@ footer {
 .double {
 		width: 50%;
 		float: left;
-            overflow:  hidden;
+        overflow:  hidden;
 }
 	
 .third {
-		width: 33%;
+		width: 33.33%;
 		float: left;
-            overflow:  hidden;
+        overflow:  hidden;
 }
 	
   .center {
