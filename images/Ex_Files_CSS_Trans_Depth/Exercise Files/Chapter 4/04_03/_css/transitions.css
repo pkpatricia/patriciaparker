@@ -1,0 +1,21 @@
+#theArt {
+	width: 270px;
+	height: 270px;
+	position: relative;
+	margin: 0 auto 40px;
+}
+#show-buttons {
+	text-align:  center;	
+}
+#cube {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#cube figure {
+	display: block;
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	border: 2px solid black;
+}

@@ -1,0 +1,8 @@
+<h1>Convert seconds to days</h1>
+
+<%= form_tag("/convert/displaydays", method: "get") do %>
+  <%= label_tag("Enter a number of seconds: ") %>
+  <%= number_field_tag('seconds') %>
+  <%= submit_tag("Convert to days") %>
+<% end %>
+
